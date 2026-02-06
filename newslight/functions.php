@@ -52,7 +52,6 @@ function newslight_filter_default_theme_options($defaults)
     $defaults['select_main_banner_order'] = 'order-1';
     $defaults['aft_custom_title']           = __('Watch', 'newslight');
     $defaults['secondary_color'] = '#002868';
-    $defaults['global_show_min_read'] = 'no';
     $defaults['select_update_post_filterby'] = 'cat';   
     $defaults['frontpage_content_type']  = 'frontpage-widgets-and-content';
     $defaults['featured_news_section_title'] = __('Featured News', 'newslight');
