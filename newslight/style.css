@@ -5,7 +5,7 @@ Author:     AF themes
 Author URI: https://afthemes.com/
 Description: NewsLight is a minimal, high-performance WordPress child theme of MoreNews designed for clean publishing with robust functionality. It utilizes over 30 custom widgets, dynamic block patterns, and the parent header and footer builder for streamlined site construction. Fully compatible with the Block Editor and Elementor, the theme prioritizes Core Web Vitals, AMP, and SEO optimization to ensure fast load times. It adheres to WCAG accessibility and GDPR standards while providing full WooCommerce and RTL support. Multilingual demos are included for English, Chinese, Spanish, French, Japanese, and Arabic. https://afthemes.com/products/newslight/
 Template: morenews
-Version: 1.1.22
+Version: 1.1.23
 Requires at least: 4.0
 Requires PHP: 5.0
 Tested up to: 6.9
@@ -365,6 +365,14 @@ form.wpcf7-form label input[type="checkbox"]{
 .entry-content .gallery {
     margin-top: 0;
     margin-bottom: 24px;
+}
+
+body.aft-dark-mode.single span.tags-links a, 
+body.aft-dark-mode .main-navigation .menu .menu-mobile li a, 
+body.aft-dark-mode .widget ul ul li, 
+body.aft-dark-mode .widget ul.menu>li, 
+body.aft-dark-mode .widget>ul>li {
+    border-top-color: rgba(255, 255, 255, 0.2);
 }
 
 @media only screen and (max-width: 375px) {
