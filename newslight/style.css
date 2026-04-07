@@ -5,7 +5,7 @@ Author:     AF themes
 Author URI: https://afthemes.com/
 Description: NewsLight is a minimal, high-performance WordPress child theme of MoreNews designed for clean publishing with robust functionality. It utilizes over 30 custom widgets, dynamic block patterns, and the parent header and footer builder for streamlined site construction. Fully compatible with the Block Editor and Elementor, the theme prioritizes Core Web Vitals, AMP, and SEO optimization to ensure fast load times. It adheres to WCAG accessibility and GDPR standards while providing full WooCommerce and RTL support. Multilingual demos are included for English, Chinese, Spanish, French, Japanese, and Arabic. https://afthemes.com/products/newslight/
 Template: morenews
-Version: 1.1.26
+Version: 1.1.27
 Requires at least: 4.0
 Requires PHP: 5.0
 Tested up to: 6.9
@@ -375,18 +375,7 @@ body.aft-dark-mode .widget>ul>li {
     border-top-color: rgba(255, 255, 255, 0.2);
 }
 
-body.aft-dark-mode .archive-layout-list .no-post-image .read-bg-img,
-body.aft-dark-mode .archive-layout-grid .no-post-image .read-bg-img,
-body.aft-dark-mode .featured-posts.morenews-customizer .no-post-image .read-bg-img,
-body.aft-dark-mode .grid-layout.morenews-customizer .no-post-image .read-bg-img,
-body.aft-dark-mode .latest-posts-grid .no-post-image .read-bg-img {
-    height: unset !important;
-    background: transparent;
-    padding-top: 0;
-    display: flex;
-    aspect-ratio: unset !important;
-    flex-direction: column;
-}
+
 
 article.sticky .read-single.no-post-image > div.read-img::before{
     top: 0;
